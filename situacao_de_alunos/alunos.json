@@ -1,0 +1,12 @@
+[    
+    {"nome" : "Joao", "nota1" : 1, "nota2" : 63, "nota3" : 7, "nota4" : 41},
+    {"nome" : "Jose", "nota1" : 46, "nota2" : 58, "nota3" : 64, "nota4" : 88},
+    {"nome" : "Pedro", "nota1" : 79, "nota2" : 68, "nota3" : 84, "nota4" : 88},
+    {"nome" : "Cristina", "nota1" : 71, "nota2" : 28, "nota3" : 3, "nota4" : 85},
+    {"nome" : "Luana", "nota1" : 79, "nota2" : 94, "nota3" : 75, "nota4" : 7},
+    {"nome" : "Carla", "nota1" : 83, "nota2" : 6, "nota3" : 7, "nota4" : 97},
+    {"nome" : "Leticia", "nota1" : 70, "nota2" : 65, "nota3" : 34, "nota4" : 92},
+    {"nome" : "Pedro", "nota1" : 68, "nota2" : 82, "nota3" : 86, "nota4" : 59},
+    {"nome" : "Lucas", "nota1" : 71, "nota2" : 89, "nota3" : 26, "nota4" : 94},
+    {"nome" : "Marcelo", "nota1" : 31, "nota2" : 52, "nota3" : 59, "nota4" : 57}
+]
