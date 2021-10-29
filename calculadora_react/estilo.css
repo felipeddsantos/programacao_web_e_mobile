@@ -1,0 +1,29 @@
+/*
+
+Programação Web e Mobile - Calculadora (Estilo)
+Felipe Daniel Dias dos Santos - 11711ECP004
+Graduação em Engenharia de Computação - Faculdade de Engenharia Elétrica - Universidade Federal de Uberlândia
+
+*/
+
+.Calculator input{
+
+    font-size: 1.4rem;
+    margin: 3px;
+    height: 30px;
+    width: 320px;
+    position: relative;
+    left: 35%;
+}
+
+.Calculator button{
+
+    font-size: 1.4rem;
+    margin: 3px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    position: relative;
+    left: 35%;
+}
