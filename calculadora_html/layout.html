@@ -1,0 +1,49 @@
+<!-
+
+Programação Web e Mobile - Calculadora (Layout)
+Felipe Daniel Dias dos Santos - 11711ECP004
+Graduação em Engenharia de Computação - Faculdade de Engenharia Elétrica - Universidade Federal de Uberlândia
+
+->
+
+<!DOCTYPE HTML>​    
+    <html>​
+        <head> ​
+            <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+            <title>Calculadora</title>​
+            <script type = "text/javascript" src = "Calculadora.js"></script>
+        </head>​
+        <body>
+            <div class = "btn-group-vertical">
+                <input id = "display" type = "text" class = "form-control" style = "margin: 5px 0 0 5px" readonly>
+                <div class = "btn-group mr-2" role = "group" aria-label = "First group">
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 5px 0 0 5px" onclick = "setNum('7')">7</button>
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 5px 0 0 0" onclick = "setNum('8')">8</button>
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 5px 0 0 0" onclick = "setNum('9')">9</button>
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 5px 0 0 0" onclick = "setOp(4)">÷</button>
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 5px 0 0 0" onclick = "setOp(5)">√</button>
+                </div>
+                <div class = "btn-group mr-2" role = "group" aria-label = "Second group">
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 0 0 0 5px" onclick = "setNum('4')">4</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setNum('5')">5</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setNum('6')">6</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setOp(3)">×</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setOp(6)">^</button>
+                </div>
+                <div class = "btn-group mr-2" role = "group" aria-label = "Third group">
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 0 0 0 5px" onclick = "setNum('1')">1</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setNum('2')">2</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setNum('3')">3</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setOp(2)">−</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setNum(2.71828189)">e</button>
+                </div>
+                <div class = "btn-group mr-2" role = "group" aria-label = "Fourth group">
+                    <button type = "button" class = "btn btn-secondary" style = "margin: 0 0 0 5px" onclick = "setNum('0')">0</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setNum('.')">.</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "equal()">=</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "setOp(1)">+</button>
+                    <button type = "button" class = "btn btn-secondary" onclick = "clearDisplay()">c</button>
+                </div>
+            </div>
+        </body>​
+    </html>​
