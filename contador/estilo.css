@@ -1,0 +1,29 @@
+/*
+
+Programação Web e Mobile - Contador (Estilo)
+Felipe Daniel Dias dos Santos - 11711ECP004
+Graduação em Engenharia de Computação - Faculdade de Engenharia Elétrica - Universidade Federal de Uberlândia
+
+*/
+
+.Principal{
+
+    text-align: center;
+}
+
+.Principal-header{
+
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Principal-link{
+
+    color: #61dafb;
+}
